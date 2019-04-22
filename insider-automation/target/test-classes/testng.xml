@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Insider Inc Test Automation Suite" parallel="true"
+       verbose="10" thread-count="${testng.thread.count}" configfailurepolicy="continue">
+
+    <test name="Regression Suite">
+
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+
+        </groups>
+            <classes>
+                <class name="com.insider.test.ShareBarTest" />
+                <class name="com.insider.test.SocialLinksStatusCodeTest" />
+                <class name="com.insider.test.SocialLinksTest" />
+            </classes>
+
+        <packages>
+            <package name="com.insider.test.*"/>
+        </packages>
+    </test>
+
+</suite>

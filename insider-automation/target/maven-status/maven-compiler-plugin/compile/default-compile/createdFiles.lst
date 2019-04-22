@@ -1,0 +1,13 @@
+com\insider\test\support\config\EndpointProperties.class
+com\insider\test\support\apps\businessobject\CommonObject.class
+com\insider\test\support\apps\service\backendservice\SampleBackendService.class
+com\insider\test\support\apps\page\BasePage.class
+com\insider\test\support\config\GlobalConfigProperties.class
+com\insider\test\support\library\GlobalHelperLibs.class
+com\insider\test\support\apps\page\HomePage.class
+com\insider\test\support\apps\service\frontendservice\SampleFrontEndService.class
+com\insider\test\support\library\Utilities.class
+com\insider\test\support\library\TestConfiguration.class
+com\insider\test\support\apps\page\block\SocialBar.class
+com\insider\test\support\apps\service\apiservice\SampleApiService.class
+com\insider\test\support\library\AppHelperLibs.class
